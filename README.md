@@ -22,6 +22,9 @@ through the Bitcoin Test Framework.
 2. Write a minimal commit that makes this one single test fail, and no others!
 3. Submit your commit as a diff using `git show <commit hash>`
 
+- You do NOT need to run the [unit tests](https://github.com/bitcoin/bitcoin/blob/master/src/test/README.md)
+ or the extended tests (`test_runner --extended`) for this exercise.
+
 ## Example
 
 Target test: `test/functional/feature_abortnode.py`
