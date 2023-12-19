@@ -19,7 +19,7 @@ through the Bitcoin Test Framework.
 ## Challenge
 
 1. Choose a target test from https://github.com/bitcoin/bitcoin/tree/44d8b13c81e5276eb610c99f227a4d090cc532f6/test/functional
-2. Write a minimal commit that makes this one single test fail, and no others!
+2. Write a minimal commit in `src/` (`*.cpp` or `*.h` files only) that makes this one single test fail, and no others!
 3. Submit your commit as a diff using `git show <commit hash>`
 
 - You do NOT need to run the [unit tests](https://github.com/bitcoin/bitcoin/blob/master/src/test/README.md)
