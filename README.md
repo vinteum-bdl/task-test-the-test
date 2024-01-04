@@ -13,7 +13,7 @@ through the Bitcoin Test Framework.
     - Recommended minimal configure options:
         - `./configure --disable-bench --disable-fuzz-binary --enable-debug --without-gui --enable-suppress-external-warnings`
 4. Run all the [functional tests](https://github.com/bitcoin/bitcoin/blob/master/test/functional/README.md#functional-tests)
-    - All tests should pass!
+    - All tests should pass! (You can ignore "skipped" tests)
     - You may be able to speed up the test suite using a [RAM disk](https://github.com/bitcoin/bitcoin/tree/master/test#speed-up-test-runs-with-a-ram-disk)
 
 ## Challenge
