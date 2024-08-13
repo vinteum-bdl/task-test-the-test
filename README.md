@@ -6,7 +6,7 @@ through the Bitcoin Test Framework.
 ## Set Up
 
 1. Clone the Bitcoin Core repository
-2. Checkout the `v26.0` tag (commit `44d8b13c81e5276eb610c99f227a4d090cc532f6`)
+2. Checkout the `v27.1` tag (commit `1088a98f5aad080cc6cca2da174f206509fcda6c2M`)
 3. Build Bitcoin Core
     - The [docs in the repo](https://github.com/bitcoin/bitcoin/tree/master/doc#building) should provide sufficient guidance for this
     - If you have any problems, search the [issues on GitHub](https://github.com/bitcoin/bitcoin/issues) or try [Bitcoin Stack Exchange](https://bitcoin.stackexchange.com/)
@@ -18,7 +18,7 @@ through the Bitcoin Test Framework.
 
 ## Challenge
 
-1. Choose a target test from https://github.com/bitcoin/bitcoin/tree/44d8b13c81e5276eb610c99f227a4d090cc532f6/test/functional
+1. Choose a target test from https://github.com/bitcoin/bitcoin/tree/1088a98f5aad080cc6cca2da174f206509fcda6c/test/functional
 2. Write a minimal commit in `src/` (`*.cpp` or `*.h` files only) that makes this one single test fail, and no others!
     - You can ignore "skipped" tests
 3. Submit your commit as a diff using `git show <commit hash>`
@@ -45,7 +45,7 @@ diff --git a/src/validation.cpp b/src/validation.cpp
 index a6cab6b095..df093c9c34 100644
 --- a/src/validation.cpp
 +++ b/src/validation.cpp
-@@ -3074,7 +3074,7 @@ bool Chainstate::ActivateBestChainStep(BlockValidationState& state, CBlockIndex*
+@@ -3115,7 +3115,7 @@ bool Chainstate::ActivateBestChainStep(BlockValidationState& state, CBlockIndex*
              // If we're unable to disconnect a block during normal operation,
              // then that is a failure of our local system -- we should abort
              // rather than stay on a less work chain.
@@ -55,6 +55,8 @@ index a6cab6b095..df093c9c34 100644
          }
          fBlocksDisconnected = true;
 ```
+
+Submit this diff as a file (e.g. `break_feature_abortnode.diff`) in your classroom repository.
 
 ### Functional test results
 
