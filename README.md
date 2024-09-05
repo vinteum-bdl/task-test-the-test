@@ -8,13 +8,13 @@ through the Bitcoin Test Framework.
 1. Clone the Bitcoin Core repository
 2. Checkout the `v27.1` tag (commit `1088a98f5aad080cc6cca2da174f206509fcda6c2M`)
 3. Build Bitcoin Core
-    - The [docs in the repo](https://github.com/bitcoin/bitcoin/tree/master/doc#building) should provide sufficient guidance for this
+    - The [docs in the repo](https://github.com/bitcoin/bitcoin/tree/v27.1/doc#building) should provide sufficient guidance for this
     - If you have any problems, search the [issues on GitHub](https://github.com/bitcoin/bitcoin/issues) or try [Bitcoin Stack Exchange](https://bitcoin.stackexchange.com/)
     - Recommended minimal configure options:
         - `./configure --disable-bench --disable-fuzz-binary --enable-debug --without-gui --enable-suppress-external-warnings`
-4. Run all the [functional tests](https://github.com/bitcoin/bitcoin/blob/master/test/functional/README.md#functional-tests)
+4. Run all the [functional tests](https://github.com/bitcoin/bitcoin/blob/v27.1/test/functional/README.md)
     - All tests should pass! (You can ignore "skipped" tests)
-    - You may be able to speed up the test suite using a [RAM disk](https://github.com/bitcoin/bitcoin/tree/master/test#speed-up-test-runs-with-a-ram-disk)
+    - You may be able to speed up the test suite using a [RAM disk](https://github.com/bitcoin/bitcoin/tree/v27.1/test#speed-up-test-runs-with-a-ram-disk)
 
 ## Challenge
 
@@ -23,7 +23,7 @@ through the Bitcoin Test Framework.
     - You can ignore "skipped" tests
 3. Submit your commit as a diff using `git show <commit hash>`
 
-- You do NOT need to run the [unit tests](https://github.com/bitcoin/bitcoin/blob/master/src/test/README.md)
+- You do NOT need to run the [unit tests](https://github.com/bitcoin/bitcoin/blob/v27.1/src/test/README.md)
  or the extended tests (`test_runner --extended`) for this exercise.
 
 ## Example
