@@ -6,7 +6,7 @@ through the Bitcoin Test Framework.
 ## Set Up
 
 1. Clone the Bitcoin Core repository
-2. Checkout the `v27.1` tag (commit `1088a98f5aad080cc6cca2da174f206509fcda6c2M`)
+2. Checkout the `v27.1` tag (commit `1088a98f5aad080cc6cca2da174f206509fcda6c`)
 3. Build Bitcoin Core
     - The [docs in the repo](https://github.com/bitcoin/bitcoin/tree/v27.1/doc#building) should provide sufficient guidance for this
     - If you have any problems, search the [issues on GitHub](https://github.com/bitcoin/bitcoin/issues) or try [Bitcoin Stack Exchange](https://bitcoin.stackexchange.com/)
