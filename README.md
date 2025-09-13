@@ -24,6 +24,7 @@ through the Bitcoin Test Framework.
     - Your change SHOULD NOT break more than one test.
 3. Submit your commit as a diff using `git show <commit hash>`
     - Submit this diff as a text file (e.g. break_feature_abortnode.diff) in the main branch of your classroom repository.
+    - Do not commit anything else to your repository. In particular, do not copy the Bitcoin Core source code into this repo.
 
 You do NOT need to run the [unit tests](https://github.com/bitcoin/bitcoin/blob/v29.1/src/test/README.md) or the extended tests (`test_runner --extended`) for this exercise.
 
